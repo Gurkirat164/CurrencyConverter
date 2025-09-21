@@ -15,11 +15,13 @@ function App() {
             <div className = "m-2">
               <InputBox 
                 label = "From"
+                selectCurrency = "USD"
               />
             </div>
             <div className = "m-2">
               <InputBox 
               label = "To"
+              selectCurrency = "INR"
               />
             </div>
           </form>
