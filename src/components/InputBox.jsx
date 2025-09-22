@@ -31,7 +31,7 @@ function InputBox({
                               Currency
                         </label>
                         <select 
-                              className = "border-none bg-gray-800 rounded-md w-full p-3 text-white text-lg"
+                              className = "border-none bg-gray-800 rounded-md w-contain p-3 text-white text-lg"
                               disabled = {currencyDisabled}
                               value = {selectCurrency}
                               onChange = {(e) => onCurrencyChange && onCurrencyChange(e.target.value)}
