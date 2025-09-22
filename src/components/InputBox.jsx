@@ -19,7 +19,7 @@ function InputBox({
                         <input
                               id = {label}
                               type="number"
-                              className = "border-none bg-gray-800 rounded-md p-3 text-white text-lg w-full"
+                              className = "border-none bg-gray-800 rounded-md p-2 sm:p-3 text-white text-lg w-full"
                               value = {amount}
                               placeholder='Enter Amount'
                               disabled = {amountDisabled}
@@ -31,7 +31,7 @@ function InputBox({
                               Currency
                         </label>
                         <select 
-                              className = "border-none bg-gray-800 rounded-md w-contain p-3 text-white text-lg"
+                              className = "border-none bg-gray-800 rounded-md min-w-contain p-2 sm:p-3 text-white text-lg"
                               disabled = {currencyDisabled}
                               value = {selectCurrency}
                               onChange = {(e) => onCurrencyChange && onCurrencyChange(e.target.value)}
